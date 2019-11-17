@@ -1,0 +1,66 @@
+body{
+	background: #eee;
+	text-align: center;
+}
+#form{
+	border: solid gray 2px;
+	width: 20%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: gray;
+	padding:15px;
+}
+#btn {
+	background: #337ab7 1px;
+	padding: 2px;
+	color: #fff;
+    width: 60%;
+    color: white;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=username], input[type=username]{
+    padding:12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=text], input[type=number] {
+    padding: 20px;
+   
+}
+
+button[type=submit]:hover {
+    background-color: #45a049;
+}
+button[type=submit]:focus {
+background-color:green;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px; 
+} 
+h1 {
+    font-size: 2em;
+    font-family: 'Montserrat';
+  }
+  a:hover {
+    color: green;
+  }
